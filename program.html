@@ -53,27 +53,74 @@
 
 
   <section class="py-3 container">
-    <div class="py-lg-4 col-lg-12 mx-auto">
+    <div class="py-lg-4 col-lg-13 mx-auto">
       <!-- <div class="col-lg-10 col-md-10 mx-auto"> -->
         <div class="fw-bold mx-auto" style="color: rgb(237, 135, 71);font-size: 3em;">Workshop Program</div>
         <br>
-        <div class="fs-2" style="color: rgb(0, 0, 0);background: rgb(244, 223, 211); width: 15em; "> Date:  Monday, December 9, 2024 </div>
-        <div class="fs-2" style="color: rgb(0, 0, 0);background: rgb(244, 223, 211); width: 15em;"> Location: </div>
+        <div class="fs-2" style="color: rgb(80, 165, 226); width: 15em; "> Date:  Monday, December 9, 2024 </div>
         <br>
         <br>
         <br>
-        <table class="dates table table-striped table-bordered " style="width:90%; margin: auto;">
+        <table class="dates table table-striped table-bordered " style="width:100%; margin: auto;">
             <tbody>
-
               <tr>
                 <td class="fs-3 col-md-2">8:00 AM</td>
                 <td class="fs-3" >Breakfast</td>
               </tr>
               <tr >
                 <td class="fs-3 col-md-2">9:00 AM</td>
-                <td class="fs-3">Keynotes Presentation <div class="fs-4"> Keynote 1 <br> Keynote 2</div></td>    
-                
+                <td class="fs-3">Keynotes Presentation 
+                </td>    
               </tr>
+      
+              <tr>
+                <td class="fs-4 col-md-2"></td>
+                <td class="fs-4"> 
+                  <div class="container">
+                    Zhaowei Tan (UC Riverside, USA)
+                    <div class="row justify-content-between">
+                      <div class="col-auto me-auto">
+                        <strong> Mitigating the Adverse Effects of 5G Handovers on TCP</strong>
+                      </div>
+                      <div class="col-auto">
+                          <button class="btn btn-outline-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Abstract
+                          </button>     
+                      </div>
+                      <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                          The advent of 5G brings the promise of high bandwidth and low latency, particularly with the adoption of mmWave technology for throughput-sensitive applications. However, the physical limitations of mmWave cells result in frequent handovers in commercial 5G networks. Would these handovers affect TCP performance? In this talk, I will share our recent research addressing this question. Our findings demonstrate that, contrary to expectations, these handovers often cause significant under-utilization of available bandwidth. I will outline our measurement methodology, highlight the improper interactions we uncovered between 5G and TCP, and introduce M2HO, a novel device-centric solution developed to mitigate this issue. The talk will conclude with insights into our ongoing efforts to further enhance the performance of 5G networks.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </td>     
+              </tr>
+
+              <tr>
+                <td class="fs-4 col-md-2"></td>
+                <td class="fs-4"> 
+                  <div class="container">
+                    Chunyi Peng (Purdue University, USA)
+                    <div class="row justify-content-between">
+                      <div class="col-auto me-auto">
+                        <strong>From 1 to N: Scaling up Radio Resource Control in 5G and Beyond Network</strong>
+                      </div>
+                      <div class="col-auto">
+                        <button class="btn btn-outline-warning" type="button" data-bs-toggle="collapse" data-bs-target="#keynote2" aria-expanded="false" aria-controls="collapseExample">
+                          Abstract
+                        </button>     
+                    </div>
+                    <div class="collapse" id="keynote2">
+                      <div class="card card-body">
+                        Cellular technology is constantly evolving. We are in the 5G era with much faster and better radio access than its previous generations (4G/3G). It is mainly attributed to more frequency spectrum resources and advanced radio access technologies. However, not all 5G benefits come without cost and pains. In this talk, I would like to introduce our recent studies to unveil unanticipated problems with 5G radio resource control (RRC). Compared to 4G/3G, 5G scales up radio resource used to serve mobile devices, namely, the number of serving cells increases from 1 to N. However, 5G RRC may not keep pace with the expanding radio resource in all cases, particularly RRC configurations may go wrong or fail to fully utilize radio resources available.  As a result, 5G is much slower and worse than it can and should. Finally, I would like to share lessons gained and open questions to scale up RRC and network management in 5G and beyond network. 
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </td>     
+              </tr>
+
               <tr>
                 <td class="fs-3 col-md-2">10:30 AM</td>
                 <td class="fs-3"  >Coffee Break</td>     
@@ -81,18 +128,52 @@
               <tr>
                 <td class="fs-3 col-md-2">11:00 AM</td>
                 <td class="fs-3" >Paper Presentation
-                    <div class="fs-4"> 
-                        1. Towards application level energy monitoring for Green 6G networks 
-                        <div style="font-weight: 100;font-size: 0.8em;">Abhishek Girish Dandekar, Johannes Wegener, Ashrafur Rahman (TU Berlin); Julius Schulz-Zander (Fraunhofer HHI)</div>
-                        <br> 
-                        2. Towards Continuous latency Monitoring through Open RAN Interfaces
-                        <div style="font-weight: 100;font-size: 0.8em;">Satis Kumar Permal, Yixi Chen, Xin Zhe Khooi, Biqing Qiu, Mun Choon Chan (National University of Singapore)</div> 
-                        <br>
-                        3. Adaptive End-to-End Monitoring Framework for Heterogeneous 5G and Beyond Networks
-                        <div style="font-weight: 100;font-size: 0.8em;">Leandro Alfonso, Nicolás Rivoir, Lucas Inglés, Claudina Rattaro, Alberto Castro (Universidad de la República)</div>
-                    </div> 
                 </td>     
               </tr>
+
+              <tr>
+                <td class="fs-4 col-md-2"></td>
+                <td class="fs-4"> 
+                  <div class="container">
+                    <div class="row justify-content-between">
+                      <div class="col-auto me-auto">
+                        <em>Towards application level energy monitoring for Green 6G networks  </em>
+                        <div style="font-weight: 100;font-size: 0.8em;">Abhishek Girish Dandekar, Johannes Wegener, Ashrafur Rahman (TU Berlin); Julius Schulz-Zander (Fraunhofer HHI)</div>
+                      </div>
+                    </div>
+                  </div>
+                </td>     
+              </tr>
+
+              <tr>
+                <td class="fs-4 col-md-2"></td>
+                <td class="fs-4"> 
+                  <div class="container">
+                    <div class="row justify-content-between">
+                      <div class="col-auto me-auto">
+                        <em>Towards Continuous latency Monitoring through Open RAN Interfaces</em>
+                        <div style="font-weight: 100;font-size: 0.8em;">Satis Kumar Permal, Yixi Chen, Xin Zhe Khooi, Biqing Qiu, Mun Choon Chan (National University of Singapore)</div>
+                      </div>
+                    </div>
+                  </div>
+                </td>     
+              </tr>
+
+              <tr>
+                <td class="fs-4 col-md-2"></td>
+                <td class="fs-4"> 
+                  <div class="container">
+                    <div class="row justify-content-between">
+                      <div class="col-auto me-auto">
+                        <em>Adaptive End-to-End Monitoring Framework for Heterogeneous 5G and Beyond Networks</em>
+                        <div style="font-weight: 100;font-size: 0.8em;">Leandro Alfonso, Nicolás Rivoir, Lucas Inglés, Claudina Rattaro, Alberto Castro (Universidad de la República)</div>
+                      </div>
+                    </div>
+                  </div>
+                </td>     
+              </tr>
+
+
               <tr>
                 <td class="fs-3 col-md-2">12:30 PM</td>
                 <td class="fs-3" >Lunch/End </td>     
